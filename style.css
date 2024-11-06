@@ -7,7 +7,8 @@
 }
 
 body{
-  background-color: #4f5940;
+  background-image: url(assets/image/solid-painted-concrete-wall-textured-backdrop.jpg);
+  background-size: cover;
   height: 100vh;
 }
 
@@ -45,7 +46,7 @@ header{
 
 .logo{
   display: flex;
-  padding: 10px;
+  padding: 30px;
   align-items: center;
 }
 
@@ -55,18 +56,69 @@ header{
   
 }
 
+.logo .img-logo{
+  width: 180px;
+}
+
 section{
   display: flex;
   justify-content: space-around;
   height: 85vh;
   align-items: center;
 }
+
 .biblia{
   
+}
+
+.biblia .img-biblia{
+ 
 }
 .cadastrar{
   display: flex;
   flex-flow: column;
   align-items: center;
   color: white;
+  font-size: 30px;
 }
+
+.cadastrar h1{
+  font-size: 68px;
+}
+.cadastrar p{
+  margin-bottom: 40px;
+}
+
+.cadastrar a{
+  text-decoration: none;
+  color:  white;
+  padding: 5px 150px 5px 150px;
+  border-radius: 10px;
+}
+
+.cadastrar .vamos-la {
+  background-color: white;
+  color: #2f3526;
+
+}
+
+.cadastrar .texto-cadastro{
+  text-align: center;
+}
+
+.cadastrar .quero{
+  border: 2px solid white;
+  margin-top: 15px;
+}
+
+.cadastrar .vamos-la:hover {
+  background-color: #c0da99ce;
+  border-radius: 20px;
+  transition: 1s;
+}
+.cadastrar .quero:hover{
+  background-color: #c0da99ce;
+  border-radius: 20px;
+  transition: 1s;
+}
+
