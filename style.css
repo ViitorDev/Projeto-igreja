@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-color: #4f5940;
+  height: 100vh;
+}
+
+.login a{
+  color: #4f5940;
+  padding: 40px;
+  font-size: 30px;
+  
+  font-weight: bolder;
+  text-decoration: none;
+  
+}
+
+.login{
+  background-color: rgba(255, 255, 255, 0.623);
+  padding: 10px;
+  margin: 70px;
+  border: 3px solid #2f3526;
+  border-radius: 10px;
+}
+
+.login:hover{
+  background-color: #c0da99ce;
+  border-radius: 20px;
+  transition: 1s;
+
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+}
+
+.logo{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.logo h1{
+  color: white;
+  font-size: 60px;
+  
+}
+
+section{
+  display: flex;
+  justify-content: space-around;
+  height: 85vh;
+  align-items: center;
+}
+.biblia{
+  
+}
+.cadastrar{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: white;
+}
