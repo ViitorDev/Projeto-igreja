@@ -7,33 +7,32 @@
 }
 
 body{
-  background-image: url(assets/image/solid-painted-concrete-wall-textured-backdrop.jpg);
+  background-color: #505a41;
   background-size: cover;
   height: 100vh;
 }
 
 .login a{
-  color: #4f5940;
+  color: #505a41;
   padding: 40px;
   font-size: 30px;
-  
   font-weight: bolder;
   text-decoration: none;
   
 }
 
 .login{
-  background-color: rgba(255, 255, 255, 0.623);
+  background-color: white;
   padding: 10px;
   margin: 70px;
-  border: 3px solid #2f3526;
+  border: 3px solid #313728;
   border-radius: 10px;
 }
 
 .login:hover{
-  background-color: #c0da99ce;
+  background-color: #c7dfa2;
   border-radius: 20px;
-  transition: 1s;
+  transition: 0.5s;
 
 }
 
@@ -65,21 +64,16 @@ section{
   justify-content: space-around;
   height: 85vh;
   align-items: center;
-}
-
-.biblia{
   
 }
 
-.biblia .img-biblia{
- 
-}
 .cadastrar{
   display: flex;
   flex-flow: column;
   align-items: center;
   color: white;
-  font-size: 30px;
+  font-size: 35px;
+  width: 100vw;
 }
 
 .cadastrar h1{
@@ -107,17 +101,21 @@ section{
 }
 
 .cadastrar .quero{
-  border: 2px solid white;
+  border: 1px solid white;
   margin-top: 15px;
 }
 
 .cadastrar .vamos-la:hover {
-  background-color: #c0da99ce;
+  background-color: #505a41;
   border-radius: 20px;
   transition: 1s;
+  color: white;
+  border: 1px solid white;
+  
 }
 .cadastrar .quero:hover{
-  background-color: #c0da99ce;
+  background-color:  white;
+  color: #505a41;
   border-radius: 20px;
   transition: 1s;
 }
